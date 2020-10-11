@@ -1,0 +1,776 @@
+player,nation,minutes,shots_on_target,goals_againts,saves,save%,team,match_id
+Gatito Fernández,py PAR,90.0,4,2,2,0.5,Botafogo (RJ),0
+Tiago Volpi,br BRA,90.0,2,0,2,1.0,São Paulo,0
+Marcelo Lomba,br BRA,90.0,6,2,5,0.833,Internacional,1
+Tiepo,br BRA,90.0,7,0,7,1.0,Chapecoense,1
+Vladimir,br BRA,90.0,2,2,1,0.5,Avaí,2
+Victor Leandro Bagy,br BRA,90.0,1,1,0,0.0,Atlético Mineiro,2
+Fábio,br BRA,90.0,5,3,2,0.4,Cruzeiro,3
+César,br BRA,90.0,1,1,0,0.0,Flamengo,3
+Vanderlei,br BRA,90.0,11,1,10,0.909,Santos,4
+Paulo Victor Vidotti,br BRA,90.0,5,2,3,0.6,Grêmio,4
+João Carlos,br BRA,44.0,3,2,1,0.33299999999999996,CSA,5
+Jordi Almeida,br BRA,45.0,4,2,2,0.5,CSA,5
+Diogo Silva,br BRA,90.0,1,0,1,1.0,Ceará,5
+Alexander,br BRA,90.0,12,4,8,0.667,Vasco da Gama,6
+Santos,br BRA,90.0,5,1,4,0.8,Atl Paranaense,6
+Cássio,br BRA,90.0,6,3,3,0.5,Corinthians,7
+Anderson,br BRA,90.0,3,2,1,0.33299999999999996,Bahia,7
+Felipe Alves Raymundo,br BRA,90.0,10,4,6,0.6,Fortaleza,8
+Wéverton,br BRA,90.0,5,0,5,1.0,Palmeiras,8
+Tadeu,br BRA,90.0,2,1,2,0.5,Goiás,9
+Rodolfo de Melo,br BRA,90.0,2,1,1,0.5,Fluminense,9
+César,br BRA,90.0,7,2,5,0.7140000000000001,Flamengo,10
+Marcelo Lomba,br BRA,90.0,5,1,4,0.8,Internacional,10
+Tiepo,br BRA,90.0,4,1,3,0.75,Chapecoense,11
+Cássio,br BRA,90.0,1,0,1,1.0,Corinthians,11
+Jailson,br BRA,90.0,1,1,0,0.0,Palmeiras,12
+Jordi Almeida,br BRA,90.0,1,1,0,0.0,CSA,12
+Diogo Silva,br BRA,90.0,4,1,3,0.75,Ceará,13
+Fábio,br BRA,90.0,2,0,3,1.0,Cruzeiro,13
+Paulo Victor Vidotti,br BRA,90.0,4,1,3,0.75,Grêmio,14
+Vladimir,br BRA,90.0,2,1,1,0.5,Avaí,14
+Tiago Volpi,br BRA,90.0,2,1,1,0.5,São Paulo,15
+Tadeu,br BRA,90.0,5,2,3,0.6,Goiás,15
+Santos,br BRA,90.0,5,2,3,0.6,Atl Paranaense,16
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,16
+Victor Leandro Bagy,br BRA,90.0,3,1,2,0.667,Atlético Mineiro,17
+Alexander,br BRA,90.0,4,2,2,0.5,Vasco da Gama,17
+Rodolfo de Melo,br BRA,90.0,10,2,8,0.8,Fluminense,18
+Vanderlei,br BRA,90.0,4,1,3,0.75,Santos,18
+Douglas Friedrich,br BRA,90.0,4,3,1,0.25,Bahia,19
+Gatito Fernández,py PAR,90.0,4,2,2,0.5,Botafogo (RJ),19
+Marcelo Lomba,br BRA,90.0,4,1,3,0.75,Internacional,20
+Wéverton,br BRA,90.0,2,0,2,1.0,Palmeiras,20
+Cássio,br BRA,90.0,3,1,3,1.0,Corinthians,21
+Sidão,br BRA,90.0,2,1,1,0.5,Vasco da Gama,21
+Victor Leandro Bagy,br BRA,90.0,3,1,2,0.667,Atlético Mineiro,22
+Diogo Silva,br BRA,90.0,6,2,4,0.667,Ceará,22
+Santos,br BRA,90.0,5,1,4,0.8,Atl Paranaense,23
+Tiepo,br BRA,90.0,6,1,5,0.833,Chapecoense,23
+Vanderlei,br BRA,90.0,3,0,3,1.0,Santos,24
+Jordi Almeida,br BRA,90.0,7,0,7,1.0,CSA,24
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,25
+Gatito Fernández,py PAR,90.0,3,0,3,1.0,Botafogo (RJ),25
+Tadeu,br BRA,90.0,6,2,4,0.667,Goiás,26
+Fábio,br BRA,90.0,4,1,3,0.75,Cruzeiro,26
+César,br BRA,90.0,11,1,10,0.909,Flamengo,27
+Tiago Volpi,br BRA,90.0,1,1,0,0.0,São Paulo,27
+Rodolfo de Melo,br BRA,90.0,7,4,3,0.429,Fluminense,28
+Júlio César,br BRA,90.0,11,5,7,0.636,Grêmio,28
+Vladimir,br BRA,90.0,11,1,10,0.909,Avaí,29
+Douglas Friedrich,br BRA,90.0,1,0,1,1.0,Bahia,29
+Gatito Fernández,py PAR,90.0,7,1,6,0.857,Botafogo (RJ),30
+Rodolfo de Melo,br BRA,90.0,3,1,2,0.667,Fluminense,30
+Paulo Victor Vidotti,br BRA,90.0,4,0,4,1.0,Grêmio,31
+Cássio,br BRA,90.0,2,0,2,1.0,Corinthians,31
+Diogo Silva,br BRA,90.0,6,2,4,0.667,Ceará,32
+Tadeu,br BRA,90.0,3,1,2,0.667,Goiás,32
+Tiepo,br BRA,90.0,5,2,4,0.6,Chapecoense,33
+Diego Alves,br BRA,90.0,7,1,6,0.857,Flamengo,33
+Sidão,br BRA,90.0,7,3,4,0.5710000000000001,Vasco da Gama,34
+Vanderlei,br BRA,90.0,6,1,5,0.833,Santos,34
+Fábio,br BRA,90.0,4,3,1,0.25,Cruzeiro,35
+Marcelo Lomba,br BRA,90.0,6,1,5,0.833,Internacional,35
+Wéverton,br BRA,90.0,0,0,0,,Palmeiras,36
+Victor Leandro Bagy,br BRA,90.0,2,2,0,0.0,Atlético Mineiro,36
+Douglas Friedrich,br BRA,90.0,9,1,8,0.889,Bahia,37
+Santos,br BRA,90.0,4,0,4,1.0,Atl Paranaense,37
+Jordi Almeida,br BRA,90.0,4,0,4,1.0,CSA,38
+Vladimir,br BRA,90.0,1,0,1,1.0,Avaí,38
+Tiago Volpi,br BRA,90.0,3,0,3,1.0,São Paulo,39
+Felipe Alves Raymundo,br BRA,90.0,2,1,1,0.5,Fortaleza,39
+Rafael Pires,br BRA,90.0,11,4,7,0.636,Cruzeiro,40
+Agenor Detofol,br BRA,90.0,3,1,2,0.667,Fluminense,40
+Vanderlei,br BRA,90.0,8,4,4,0.5,Santos,41
+Wéverton,br BRA,90.0,4,0,4,1.0,Palmeiras,41
+Diego Alves,br BRA,90.0,5,2,3,0.6,Flamengo,42
+Victor Leandro Bagy,br BRA,90.0,10,1,9,0.9,Atlético Mineiro,42
+Douglas Friedrich,br BRA,90.0,3,0,3,1.0,Bahia,43
+Tiago Volpi,br BRA,90.0,2,0,2,1.0,São Paulo,43
+Gatito Fernández,py PAR,90.0,6,1,5,0.833,Botafogo (RJ),44
+Tadeu,br BRA,90.0,2,0,2,1.0,Goiás,44
+Cássio,br BRA,90.0,5,0,5,1.0,Corinthians,45
+Caio,br BRA,90.0,2,2,0,0.0,Atl Paranaense,45
+Jordi Almeida,br BRA,90.0,7,2,5,0.7140000000000001,CSA,46
+Marcelo Lomba,br BRA,90.0,5,0,5,1.0,Internacional,46
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,47
+Tiepo,br BRA,90.0,7,3,4,0.5710000000000001,Chapecoense,47
+Vladimir,br BRA,90.0,3,1,2,0.667,Avaí,48
+Sidão,br BRA,90.0,6,1,5,0.833,Vasco da Gama,48
+Paulo Victor Vidotti,br BRA,90.0,2,2,0,0.0,Grêmio,49
+Richard,br BRA,45.0,3,1,2,0.667,Ceará,49
+Diogo Silva,br BRA,45.0,1,0,1,1.0,Ceará,49
+Wéverton,br BRA,90.0,2,0,2,1.0,Palmeiras,50
+Gatito Fernández,py PAR,90.0,1,1,1,1.0,Botafogo (RJ),50
+Victor Leandro Bagy,br BRA,90.0,8,1,7,0.875,Atlético Mineiro,51
+Paulo Victor Vidotti,br BRA,90.0,5,0,5,1.0,Grêmio,51
+Marcelo Lomba,br BRA,90.0,4,0,4,1.0,Internacional,52
+Vanderlei,br BRA,90.0,2,1,1,0.5,Santos,52
+Santos,br BRA,90.0,3,3,1,0.33299999999999996,Atl Paranaense,53
+Diego Alves,br BRA,90.0,4,2,3,0.75,Flamengo,53
+Tiago Volpi,br BRA,90.0,5,1,4,0.8,São Paulo,54
+Cássio,br BRA,90.0,1,0,1,1.0,Corinthians,54
+Sidão,br BRA,90.0,2,1,1,0.5,Vasco da Gama,55
+Felipe Alves Raymundo,br BRA,90.0,1,1,1,1.0,Fortaleza,55
+Tiepo,br BRA,90.0,2,1,1,0.5,Chapecoense,56
+Fábio,br BRA,90.0,5,2,3,0.6,Cruzeiro,56
+Agenor Detofol,br BRA,65.0,2,2,1,0.0,Fluminense,57
+Rodolfo de Melo,br BRA,21.0,0,1,0,,Fluminense,57
+Douglas Friedrich,br BRA,90.0,3,2,2,0.667,Bahia,57
+Diogo Silva,br BRA,90.0,3,1,2,0.667,Ceará,58
+Vladimir,br BRA,90.0,4,2,2,0.5,Avaí,58
+Tadeu,br BRA,90.0,4,1,3,0.75,Goiás,59
+Jordi Almeida,br BRA,90.0,5,0,5,1.0,CSA,59
+Marcelo Boeck,br BRA,90.0,7,2,5,0.7140000000000001,Fortaleza,60
+Diego Alves,br BRA,90.0,4,0,4,1.0,Flamengo,60
+Paulo Victor Vidotti,br BRA,90.0,3,1,3,1.0,Grêmio,61
+Douglas Friedrich,br BRA,90.0,1,0,1,1.0,Bahia,61
+Sidão,br BRA,90.0,1,1,0,0.0,Vasco da Gama,62
+Gatito Fernández,py PAR,90.0,2,0,2,1.0,Botafogo (RJ),62
+Rodolfo de Melo,br BRA,90.0,5,3,2,0.4,Fluminense,63
+Santos,br BRA,90.0,2,0,2,1.0,Atl Paranaense,63
+Éverson,br BRA,90.0,3,0,3,1.0,Santos,64
+Diogo Silva,br BRA,90.0,3,1,2,0.667,Ceará,64
+Fábio,br BRA,90.0,4,1,3,0.75,Cruzeiro,65
+Tiago Volpi,br BRA,90.0,4,1,3,0.75,São Paulo,65
+Jordi Almeida,br BRA,90.0,6,4,3,0.5,CSA,66
+Victor Leandro Bagy,br BRA,90.0,0,0,0,,Atlético Mineiro,66
+Wéverton,br BRA,90.0,3,1,3,1.0,Palmeiras,67
+Tiepo,br BRA,90.0,6,2,4,0.667,Chapecoense,67
+Vladimir,br BRA,90.0,7,2,5,0.7140000000000001,Avaí,68
+Marcelo Lomba,br BRA,90.0,1,0,1,1.0,Internacional,68
+Marcelo Lomba,br BRA,90.0,3,2,1,0.33299999999999996,Internacional,69
+Fernando Miguel,br BRA,90.0,4,1,3,0.75,Vasco da Gama,69
+Santos,br BRA,90.0,2,1,2,1.0,Atl Paranaense,70
+Wéverton,br BRA,90.0,3,0,3,1.0,Palmeiras,70
+Walter,br BRA,90.0,7,0,7,1.0,Corinthians,71
+Fábio,br BRA,90.0,1,0,1,1.0,Cruzeiro,71
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,72
+Marcelo Boeck,br BRA,,0,0,0,,Fortaleza,72
+Paulo Victor Vidotti,br BRA,90.0,2,0,2,1.0,Grêmio,72
+Douglas Friedrich,br BRA,90.0,5,0,5,1.0,Bahia,73
+Diogo Silva,br BRA,90.0,1,0,1,1.0,Ceará,73
+Tiago Volpi,br BRA,90.0,1,0,1,1.0,São Paulo,74
+Vladimir,br BRA,90.0,3,0,3,1.0,Avaí,74
+Victor Leandro Bagy,br BRA,90.0,4,3,2,0.5,Atlético Mineiro,75
+Éverson,br BRA,90.0,4,1,3,0.75,Santos,75
+Diego Cavalieri,br BRA,90.0,5,1,4,0.8,Botafogo (RJ),76
+Jordi Almeida,br BRA,90.0,7,2,5,0.7140000000000001,CSA,76
+Diego Alves,br BRA,90.0,6,0,6,1.0,Flamengo,77
+Agenor Detofol,br BRA,90.0,2,0,2,1.0,Fluminense,77
+Tiepo,br BRA,90.0,4,3,3,0.75,Chapecoense,78
+Tadeu,br BRA,90.0,2,1,1,0.5,Goiás,78
+Paulo Victor Vidotti,br BRA,90.0,3,0,3,1.0,Grêmio,79
+Diego Cavalieri,br BRA,90.0,5,1,4,0.8,Botafogo (RJ),79
+Fábio,br BRA,90.0,4,2,2,0.5,Cruzeiro,80
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,80
+Douglas Friedrich,br BRA,90.0,7,3,4,0.5710000000000001,Bahia,81
+Marcelo Lomba,br BRA,90.0,2,1,1,0.5,Internacional,81
+Walter,br BRA,90.0,4,1,3,0.75,Corinthians,82
+Éverson,br BRA,90.0,0,0,0,,Santos,82
+César,br BRA,90.0,2,0,2,1.0,Flamengo,83
+Jordi Almeida,br BRA,90.0,10,2,8,0.8,CSA,83
+Diogo Silva,br BRA,90.0,11,1,10,0.909,Ceará,84
+Fernando Miguel,br BRA,90.0,1,0,1,1.0,Vasco da Gama,84
+Santos,br BRA,90.0,5,2,3,0.6,Atl Paranaense,85
+Tadeu,br BRA,90.0,7,1,6,0.857,Goiás,85
+Agenor Detofol,br BRA,90.0,4,1,3,0.75,Fluminense,86
+Tiepo,br BRA,90.0,2,1,2,1.0,Chapecoense,86
+Tiago Volpi,br BRA,90.0,8,1,7,0.875,São Paulo,87
+Jean,br BRA,,0,0,0,,São Paulo,87
+Victor Leandro Bagy,br BRA,90.0,3,1,2,0.667,Atlético Mineiro,87
+Vladimir,br BRA,90.0,6,2,4,0.667,Avaí,88
+Wéverton,br BRA,90.0,2,0,2,1.0,Palmeiras,88
+Vladimir,br BRA,90.0,5,2,3,0.6,Avaí,89
+Felipe Alves Raymundo,br BRA,90.0,5,0,5,1.0,Fortaleza,89
+Fernando Miguel,br BRA,90.0,6,2,4,0.667,Vasco da Gama,90
+Paulo Victor Vidotti,br BRA,90.0,4,1,4,1.0,Grêmio,90
+Wéverton,br BRA,90.0,10,1,9,0.9,Palmeiras,91
+Tiago Volpi,br BRA,90.0,5,1,4,0.8,São Paulo,91
+Éverson,br BRA,90.0,2,0,2,1.0,Santos,92
+Douglas Friedrich,br BRA,90.0,5,1,5,0.8,Bahia,92
+Tadeu,br BRA,90.0,16,6,10,0.625,Goiás,93
+Diego Alves,br BRA,90.0,2,1,1,0.5,Flamengo,93
+Jordi Almeida,br BRA,90.0,7,1,6,0.857,CSA,94
+Cássio,br BRA,90.0,1,0,1,1.0,Corinthians,94
+Marcelo Lomba,br BRA,90.0,6,1,5,0.833,Internacional,95
+Santos,br BRA,90.0,4,0,4,1.0,Atl Paranaense,95
+Gatito Fernández,py PAR,90.0,1,0,1,1.0,Botafogo (RJ),96
+Fábio,br BRA,90.0,1,0,1,1.0,Cruzeiro,96
+Cleiton Schwengber,br BRA,90.0,3,1,2,0.667,Atlético Mineiro,97
+Tiepo,br BRA,90.0,5,2,4,0.6,Chapecoense,97
+Diogo Silva,br BRA,90.0,7,1,6,0.857,Ceará,98
+Agenor Detofol,br BRA,90.0,5,1,4,0.8,Fluminense,98
+Agenor Detofol,br BRA,90.0,5,2,3,0.6,Fluminense,99
+Sidão,br BRA,90.0,2,1,1,0.5,Vasco da Gama,99
+Rafael Pires,br BRA,90.0,1,0,1,1.0,Cruzeiro,100
+Douglas Friedrich,br BRA,90.0,4,0,4,1.0,Bahia,100
+Júlio César,br BRA,90.0,5,1,4,0.8,Grêmio,101
+Danilo Fernandes,br BRA,90.0,3,1,2,0.667,Internacional,101
+Caio,br BRA,90.0,1,0,1,1.0,Atl Paranaense,102
+Jordi Almeida,br BRA,90.0,9,4,5,0.556,CSA,102
+Wéverton,br BRA,90.0,4,2,2,0.5,Palmeiras,103
+Diogo Silva,br BRA,90.0,6,0,6,1.0,Ceará,103
+Éverson,br BRA,90.0,1,0,1,1.0,Santos,104
+Gatito Fernández,py PAR,90.0,4,1,3,0.75,Botafogo (RJ),104
+Felipe Alves Raymundo,br BRA,90.0,3,2,4,0.667,Fortaleza,105
+Cleiton Schwengber,br BRA,90.0,3,2,2,0.667,Atlético Mineiro,105
+Diego Alves,br BRA,90.0,1,1,1,1.0,Flamengo,106
+Cássio,br BRA,90.0,3,1,2,0.667,Corinthians,106
+Tadeu,br BRA,90.0,3,0,3,1.0,Goiás,107
+Vladimir,br BRA,90.0,4,0,4,1.0,Avaí,107
+Tiepo,br BRA,90.0,6,4,2,0.33299999999999996,Chapecoense,108
+Tiago Volpi,br BRA,90.0,2,0,2,1.0,São Paulo,108
+Fernando Miguel,br BRA,90.0,4,1,4,1.0,Vasco da Gama,109
+Wéverton,br BRA,90.0,1,1,0,0.0,Palmeiras,109
+Tiago Volpi,br BRA,90.0,4,1,3,0.75,São Paulo,110
+Muriel Becker,br BRA,90.0,4,2,3,0.75,Fluminense,110
+Diogo Silva,br BRA,90.0,5,1,4,0.8,Ceará,111
+Marcelo Lomba,br BRA,90.0,2,0,2,1.0,Internacional,111
+Santos,br BRA,90.0,1,0,1,1.0,Atl Paranaense,112
+Rafael Pires,br BRA,90.0,5,2,4,0.8,Cruzeiro,112
+Douglas Friedrich,br BRA,90.0,4,0,4,1.0,Bahia,113
+Tiepo,br BRA,90.0,6,0,6,1.0,Chapecoense,113
+Lucas Frigeri,br BRA,90.0,11,3,8,0.727,Avaí,114
+Éverson,br BRA,90.0,4,1,3,0.75,Santos,114
+Gatito Fernández,py PAR,90.0,5,3,2,0.4,Botafogo (RJ),115
+Diego Alves,br BRA,90.0,3,2,1,0.33299999999999996,Flamengo,115
+Cleiton Schwengber,br BRA,90.0,2,0,2,1.0,Atlético Mineiro,116
+Tadeu,br BRA,90.0,0,0,0,,Goiás,116
+Cássio,br BRA,90.0,4,1,3,0.75,Corinthians,117
+Felipe Alves Raymundo,br BRA,90.0,5,3,2,0.4,Fortaleza,117
+Júlio César,br BRA,90.0,2,0,2,1.0,Grêmio,118
+Jordi Almeida,br BRA,90.0,0,0,0,,CSA,118
+Marcelo Lomba,br BRA,90.0,7,2,5,0.7140000000000001,Internacional,119
+Muriel Becker,br BRA,90.0,4,1,3,0.75,Fluminense,119
+Felipe Alves Raymundo,br BRA,90.0,4,2,2,0.5,Fortaleza,120
+Diogo Silva,br BRA,90.0,3,1,3,1.0,Ceará,120
+Tadeu,br BRA,90.0,7,6,1,0.14300000000000002,Goiás,121
+Éverson,br BRA,90.0,2,1,1,0.5,Santos,121
+Diego Alves,br BRA,90.0,7,3,4,0.5710000000000001,Flamengo,122
+Douglas Friedrich,br BRA,90.0,1,0,1,1.0,Bahia,122
+Gatito Fernández,py PAR,90.0,3,0,3,1.0,Botafogo (RJ),123
+Vladimir,br BRA,90.0,5,2,3,0.6,Avaí,123
+Fábio,br BRA,90.0,6,2,4,0.667,Cruzeiro,124
+Cleiton Schwengber,br BRA,90.0,4,0,4,1.0,Atlético Mineiro,124
+João Carlos,br BRA,90.0,2,0,2,1.0,CSA,125
+Fernando Miguel,br BRA,90.0,2,0,2,1.0,Vasco da Gama,125
+Wéverton,br BRA,90.0,7,1,6,0.857,Palmeiras,126
+Cássio,br BRA,90.0,6,1,5,0.833,Corinthians,126
+Tiepo,br BRA,90.0,9,3,6,0.667,Chapecoense,127
+Paulo Victor Vidotti,br BRA,90.0,4,3,1,0.25,Grêmio,127
+Tadeu,br BRA,90.0,5,2,4,0.8,Goiás,128
+Cássio,br BRA,90.0,3,0,3,1.0,Corinthians,128
+Tiepo,br BRA,90.0,4,4,1,0.25,Chapecoense,129
+Diogo Silva,br BRA,90.0,3,1,2,0.667,Ceará,129
+Éverson,br BRA,90.0,6,3,4,0.667,Santos,130
+Tiago Volpi,br BRA,90.0,4,2,2,0.5,São Paulo,130
+Júlio César,br BRA,90.0,5,3,2,0.4,Grêmio,131
+Diego Alves,br BRA,90.0,1,1,1,1.0,Flamengo,131
+Muriel Becker,br BRA,90.0,9,2,7,0.778,Fluminense,132
+Cleiton Schwengber,br BRA,90.0,6,1,5,0.833,Atlético Mineiro,132
+Cássio,br BRA,90.0,1,0,1,1.0,Corinthians,133
+Marcelo Lomba,br BRA,90.0,1,0,1,1.0,Internacional,133
+Caio,br BRA,90.0,4,2,3,0.75,Atl Paranaense,134
+Gatito Fernández,py PAR,90.0,8,1,7,0.875,Botafogo (RJ),134
+Douglas Friedrich,br BRA,90.0,10,2,8,0.8,Bahia,135
+Wéverton,br BRA,90.0,1,2,1,1.0,Palmeiras,135
+Fábio,br BRA,90.0,2,2,1,0.5,Cruzeiro,136
+Vladimir,br BRA,90.0,6,2,4,0.667,Avaí,136
+Fernando Miguel,br BRA,90.0,5,0,5,1.0,Vasco da Gama,137
+Tadeu,br BRA,90.0,5,1,4,0.8,Goiás,137
+Felipe Alves Raymundo,br BRA,90.0,5,0,5,1.0,Fortaleza,138
+Jordi Almeida,br BRA,90.0,3,2,1,0.33299999999999996,CSA,138
+Gatito Fernández,py PAR,90.0,9,2,7,0.778,Botafogo (RJ),139
+Walter,br BRA,90.0,3,0,3,1.0,Corinthians,139
+Danilo Fernandes,br BRA,90.0,4,0,4,1.0,Internacional,140
+Felipe Alves Raymundo,br BRA,90.0,2,1,1,0.5,Fortaleza,140
+Cleiton Schwengber,br BRA,90.0,1,1,0,0.0,Atlético Mineiro,141
+Santos,br BRA,90.0,0,0,0,,Atl Paranaense,141
+Diego Alves,br BRA,90.0,6,1,5,0.833,Flamengo,142
+Fernando Miguel,br BRA,90.0,8,4,5,0.625,Vasco da Gama,142
+Wéverton,br BRA,90.0,3,1,2,0.667,Palmeiras,143
+Júlio César,br BRA,90.0,7,1,6,0.857,Grêmio,143
+Diogo Silva,br BRA,90.0,6,1,5,0.833,Ceará,144
+Tiago Volpi,br BRA,90.0,4,0,4,1.0,São Paulo,144
+Tadeu,br BRA,90.0,3,1,2,0.667,Goiás,145
+Douglas Friedrich,br BRA,90.0,4,1,3,0.75,Bahia,145
+Éverson,br BRA,90.0,9,2,7,0.778,Santos,146
+Fábio,br BRA,90.0,2,0,2,1.0,Cruzeiro,146
+Jordi Almeida,br BRA,90.0,12,0,12,1.0,CSA,147
+Muriel Becker,br BRA,90.0,3,1,2,0.667,Fluminense,147
+Vladimir,br BRA,90.0,1,1,1,1.0,Avaí,148
+Tiepo,br BRA,90.0,0,0,0,,Chapecoense,148
+Tiago Volpi,br BRA,90.0,0,0,0,,São Paulo,149
+Santos,br BRA,90.0,1,1,0,0.0,Atl Paranaense,149
+Douglas Friedrich,br BRA,90.0,7,0,7,1.0,Bahia,150
+Cleiton Schwengber,br BRA,90.0,5,1,4,0.8,Atlético Mineiro,150
+Santos,br BRA,90.0,1,2,0,-1.0,Atl Paranaense,151
+Júlio César,br BRA,90.0,1,1,0,0.0,Grêmio,151
+Tiago Volpi,br BRA,90.0,7,2,5,0.7140000000000001,São Paulo,152
+Fernando Miguel,br BRA,90.0,1,0,1,1.0,Vasco da Gama,152
+Marcelo Lomba,br BRA,90.0,4,2,2,0.5,Internacional,153
+Tadeu,br BRA,90.0,6,1,5,0.833,Goiás,153
+Felipe Alves Raymundo,br BRA,90.0,10,3,7,0.7,Fortaleza,154
+Éverson,br BRA,90.0,4,3,2,0.5,Santos,154
+Diego Alves,br BRA,90.0,4,0,4,1.0,Flamengo,155
+Diogo Silva,br BRA,90.0,5,3,2,0.4,Ceará,155
+Fábio,br BRA,90.0,3,1,2,0.667,Cruzeiro,156
+Jordi Almeida,br BRA,90.0,5,1,4,0.8,CSA,156
+Cássio,br BRA,90.0,2,1,1,0.5,Corinthians,157
+Vladimir,br BRA,90.0,4,1,3,0.75,Avaí,157
+Tiepo,br BRA,90.0,1,0,1,1.0,Chapecoense,158
+Gatito Fernández,py PAR,90.0,5,0,5,1.0,Botafogo (RJ),158
+Júlio César,br BRA,90.0,4,0,4,1.0,Grêmio,159
+Tiago Volpi,br BRA,90.0,3,0,3,1.0,São Paulo,159
+Jordi Almeida,br BRA,90.0,5,1,5,0.8,CSA,160
+Douglas Friedrich,br BRA,90.0,2,0,2,1.0,Bahia,160
+Diogo Silva,br BRA,90.0,4,1,3,0.75,Ceará,161
+Santos,br BRA,90.0,5,0,5,1.0,Atl Paranaense,161
+Éverson,br BRA,90.0,5,0,5,1.0,Santos,162
+Tiepo,br BRA,90.0,5,1,4,0.8,Chapecoense,162
+Gatito Fernández,py PAR,45.0,4,1,3,0.75,Botafogo (RJ),163
+Diego Cavalieri,br BRA,45.0,5,2,3,0.6,Botafogo (RJ),163
+Marcelo Lomba,br BRA,90.0,7,2,5,0.7140000000000001,Internacional,163
+Tadeu,br BRA,90.0,3,2,1,0.33299999999999996,Goiás,164
+Felipe Alves Raymundo,br BRA,90.0,1,0,1,1.0,Fortaleza,164
+Wéverton,br BRA,90.0,3,3,1,0.33299999999999996,Palmeiras,165
+Diego Alves,br BRA,90.0,0,0,0,,Flamengo,165
+Fernando Miguel,br BRA,90.0,3,1,2,0.667,Vasco da Gama,166
+Fábio,br BRA,90.0,0,0,1,,Cruzeiro,166
+Cleiton Schwengber,br BRA,90.0,5,1,4,0.8,Atlético Mineiro,167
+Cássio,br BRA,90.0,5,0,5,1.0,Corinthians,167
+Vladimir,br BRA,90.0,10,0,10,1.0,Avaí,168
+Muriel Becker,br BRA,90.0,1,1,1,1.0,Fluminense,168
+Diogo Silva,br BRA,90.0,3,2,1,0.33299999999999996,Ceará,169
+Cássio,br BRA,90.0,6,2,4,0.667,Corinthians,169
+Douglas Friedrich,br BRA,90.0,4,0,4,1.0,Bahia,170
+Fernando Miguel,br BRA,90.0,3,2,1,0.33299999999999996,Vasco da Gama,170
+Diego Alves,br BRA,90.0,2,0,2,1.0,Flamengo,171
+Vladimir,br BRA,90.0,5,3,2,0.4,Avaí,171
+Muriel Becker,br BRA,90.0,8,0,8,1.0,Fluminense,172
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,172
+Tiago Volpi,br BRA,90.0,3,1,3,1.0,São Paulo,173
+Marcelo Lomba,br BRA,90.0,4,0,4,1.0,Internacional,173
+Jailson,br BRA,90.0,2,1,1,0.5,Palmeiras,174
+Tadeu,br BRA,58.0,6,0,6,1.0,Goiás,174
+Marcos de Paula Dutra,br BRA,32.0,3,2,1,0.33299999999999996,Goiás,174
+Paulo Victor Vidotti,br BRA,90.0,7,1,7,1.0,Grêmio,175
+Fábio,br BRA,90.0,4,4,0,0.0,Cruzeiro,175
+Wilson,br BRA,90.0,5,2,4,0.8,Atlético Mineiro,176
+Diego Cavalieri,br BRA,90.0,6,1,5,0.833,Botafogo (RJ),176
+Léo,br BRA,90.0,9,1,9,1.0,Atl Paranaense,177
+Éverson,br BRA,90.0,4,1,3,0.75,Santos,177
+Tiepo,br BRA,90.0,2,2,1,0.0,Chapecoense,178
+Jordi Almeida,br BRA,90.0,1,0,2,1.0,CSA,178
+Muriel Becker,br BRA,90.0,8,3,5,0.625,Fluminense,179
+Fernando Prass,br BRA,90.0,1,0,1,1.0,Palmeiras,179
+Éverson,br BRA,90.0,2,1,1,0.5,Santos,180
+Diego Alves,br BRA,90.0,0,0,0,,Flamengo,180
+Fernando Miguel,br BRA,90.0,8,1,7,0.875,Vasco da Gama,181
+Tiepo,br BRA,90.0,8,2,6,0.75,Chapecoense,181
+Fábio,br BRA,90.0,3,1,2,0.667,Cruzeiro,182
+Wéverton,br BRA,90.0,3,0,3,1.0,Palmeiras,182
+Gatito Fernández,py PAR,90.0,6,0,6,1.0,Botafogo (RJ),183
+Diogo Silva,br BRA,90.0,0,0,0,,Ceará,183
+Danilo Fernandes,br BRA,90.0,11,1,10,0.909,Internacional,184
+Cleiton Schwengber,br BRA,90.0,9,3,6,0.667,Atlético Mineiro,184
+Vladimir,br BRA,90.0,0,0,0,,Avaí,185
+Léo,br BRA,90.0,1,1,0,0.0,Atl Paranaense,185
+Felipe Alves Raymundo,br BRA,90.0,2,1,2,1.0,Fortaleza,186
+Douglas Friedrich,br BRA,90.0,1,1,0,0.0,Bahia,186
+Marcelo Rangel,br BRA,90.0,10,3,7,0.7,Goiás,187
+Paulo Victor Vidotti,br BRA,90.0,4,0,4,1.0,Grêmio,187
+Cássio,br BRA,90.0,2,1,1,0.5,Corinthians,188
+Muriel Becker,br BRA,90.0,3,0,3,1.0,Fluminense,188
+Jordi Almeida,br BRA,90.0,6,1,5,0.833,CSA,189
+Tiago Volpi,br BRA,90.0,2,1,1,0.5,São Paulo,189
+Tiago Volpi,br BRA,90.0,5,1,4,0.8,São Paulo,190
+Gatito Fernández,py PAR,90.0,7,2,5,0.7140000000000001,Botafogo (RJ),190
+Diego Alves,br BRA,90.0,2,1,2,1.0,Flamengo,191
+Fábio,br BRA,90.0,5,2,3,0.6,Cruzeiro,191
+Douglas Friedrich,br BRA,90.0,2,2,1,0.5,Bahia,192
+Cássio,br BRA,90.0,2,1,2,1.0,Corinthians,192
+Paulo Victor Vidotti,br BRA,90.0,5,0,5,1.0,Grêmio,193
+Éverson,br BRA,90.0,6,3,3,0.5,Santos,193
+Tiepo,br BRA,90.0,3,1,2,0.667,Chapecoense,194
+Marcelo Lomba,br BRA,90.0,2,0,2,1.0,Internacional,194
+Wéverton,br BRA,90.0,1,0,1,1.0,Palmeiras,195
+Felipe Alves Raymundo,br BRA,36.0,1,0,1,1.0,Fortaleza,195
+Marcelo Boeck,br BRA,54.0,2,1,1,0.5,Fortaleza,195
+Lucas França,br BRA,90.0,4,1,3,0.75,Ceará,196
+Jordi Almeida,br BRA,90.0,9,0,9,1.0,CSA,196
+Santos,br BRA,90.0,0,1,0,,Atl Paranaense,197
+Fernando Miguel,br BRA,90.0,1,1,0,0.0,Vasco da Gama,197
+Muriel Becker,br BRA,90.0,5,3,2,0.4,Fluminense,198
+Tadeu,br BRA,90.0,2,0,2,1.0,Goiás,198
+Cleiton Schwengber,br BRA,90.0,4,1,4,0.75,Atlético Mineiro,199
+Vladimir,br BRA,90.0,3,0,3,1.0,Avaí,199
+Fábio,br BRA,90.0,8,0,8,1.0,Cruzeiro,200
+Diogo Silva,br BRA,90.0,3,0,3,1.0,Ceará,200
+Gatito Fernández,py PAR,90.0,3,2,1,0.33299999999999996,Botafogo (RJ),201
+Douglas Friedrich,br BRA,90.0,0,0,0,,Bahia,201
+Tadeu,br BRA,90.0,2,0,3,1.0,Goiás,202
+Tiago Volpi,br BRA,90.0,3,1,2,0.667,São Paulo,202
+Marcelo Lomba,br BRA,90.0,6,3,4,0.667,Internacional,203
+Diego Alves,br BRA,90.0,2,1,1,0.5,Flamengo,203
+Jordi Almeida,br BRA,90.0,11,6,5,0.455,CSA,204
+Wéverton,br BRA,90.0,4,2,2,0.5,Palmeiras,204
+Vladimir,br BRA,45.0,5,4,1,0.2,Avaí,205
+Glédson,br BRA,45.0,3,2,1,0.33299999999999996,Avaí,205
+Paulo Victor Vidotti,br BRA,90.0,4,1,3,0.75,Grêmio,205
+Éverson,br BRA,90.0,4,1,3,0.75,Santos,206
+Muriel Becker,br BRA,90.0,7,1,6,0.857,Fluminense,206
+Marcelo Boeck,br BRA,90.0,9,4,5,0.556,Fortaleza,207
+Santos,br BRA,90.0,2,1,2,1.0,Atl Paranaense,207
+Tiago Volpi,br BRA,90.0,8,0,8,1.0,São Paulo,208
+Diego Alves,br BRA,90.0,1,0,1,1.0,Flamengo,208
+Fernando Miguel,br BRA,90.0,7,1,6,0.857,Vasco da Gama,209
+Cássio,br BRA,90.0,2,0,2,1.0,Corinthians,209
+Jordi Almeida,br BRA,90.0,4,2,3,0.75,CSA,210
+Éverson,br BRA,90.0,2,0,2,1.0,Santos,210
+Júlio César,br BRA,90.0,5,2,3,0.6,Grêmio,211
+Muriel Becker,br BRA,90.0,4,1,3,0.75,Fluminense,211
+Wéverton,br BRA,90.0,6,1,5,0.833,Palmeiras,212
+Marcelo Lomba,br BRA,90.0,5,1,4,0.8,Internacional,212
+Tiepo,br BRA,90.0,1,1,0,0.0,Chapecoense,213
+Santos,br BRA,90.0,1,1,0,0.0,Atl Paranaense,213
+Diogo Silva,br BRA,90.0,6,2,4,0.667,Ceará,214
+Cleiton Schwengber,br BRA,90.0,0,1,0,,Atlético Mineiro,214
+Douglas Friedrich,br BRA,90.0,4,0,4,1.0,Bahia,215
+Lucas Frigeri,br BRA,90.0,2,2,0,0.0,Avaí,215
+Fábio,br BRA,90.0,2,1,1,0.5,Cruzeiro,216
+Tadeu,br BRA,90.0,1,0,1,1.0,Goiás,216
+Gatito Fernández,py PAR,90.0,4,1,3,0.75,Botafogo (RJ),217
+Marcelo Boeck,br BRA,90.0,2,0,2,1.0,Fortaleza,217
+Cássio,br BRA,90.0,4,0,4,1.0,Corinthians,218
+Tiepo,br BRA,90.0,2,1,1,0.5,Chapecoense,218
+Fernando Miguel,br BRA,90.0,3,1,2,0.667,Vasco da Gama,219
+Cleiton Schwengber,br BRA,90.0,4,2,3,0.75,Atlético Mineiro,219
+Marcelo Boeck,br BRA,90.0,7,2,5,0.7140000000000001,Fortaleza,220
+Tiago Volpi,br BRA,90.0,1,1,1,1.0,São Paulo,220
+Éverson,br BRA,90.0,0,0,1,,Santos,221
+Fernando Miguel,br BRA,90.0,4,1,3,0.75,Vasco da Gama,221
+Santos,br BRA,90.0,4,1,3,0.75,Atl Paranaense,222
+Douglas Friedrich,br BRA,90.0,5,2,3,0.6,Bahia,222
+Cássio,br BRA,90.0,4,0,4,1.0,Corinthians,223
+Paulo Victor Vidotti,br BRA,90.0,2,0,2,1.0,Grêmio,223
+Marcelo Lomba,br BRA,90.0,4,1,4,1.0,Internacional,224
+Fábio,br BRA,90.0,2,1,1,0.5,Cruzeiro,224
+Diego Alves,br BRA,90.0,1,0,1,1.0,Flamengo,225
+Tiepo,br BRA,90.0,5,1,4,0.8,Chapecoense,225
+Cleiton Schwengber,br BRA,90.0,7,1,6,0.857,Atlético Mineiro,226
+Wéverton,br BRA,90.0,5,1,4,0.8,Palmeiras,226
+Muriel Becker,br BRA,90.0,5,0,5,1.0,Fluminense,227
+Gatito Fernández,py PAR,90.0,5,1,4,0.8,Botafogo (RJ),227
+Tadeu,br BRA,90.0,5,0,5,1.0,Goiás,228
+Diogo Silva,br BRA,90.0,3,1,2,0.667,Ceará,228
+Vladimir,br BRA,90.0,5,3,3,0.6,Avaí,229
+Jordi Almeida,br BRA,90.0,2,1,1,0.5,CSA,229
+Tadeu,br BRA,90.0,7,3,4,0.5710000000000001,Goiás,230
+Diego Cavalieri,br BRA,90.0,5,1,4,0.8,Botafogo (RJ),230
+Marcelo Lomba,br BRA,90.0,3,1,3,1.0,Internacional,231
+Jordi Almeida,br BRA,90.0,2,0,2,1.0,CSA,231
+João Ricardo Riedi,br BRA,90.0,4,2,3,0.75,Chapecoense,232
+Marcelo Boeck,br BRA,90.0,5,0,5,1.0,Fortaleza,232
+Tiago Volpi,br BRA,90.0,6,0,6,1.0,São Paulo,233
+Douglas Friedrich,br BRA,90.0,1,0,1,1.0,Bahia,233
+Diogo Silva,br BRA,90.0,3,2,2,0.667,Ceará,234
+Paulo Victor Vidotti,br BRA,90.0,5,1,4,0.8,Grêmio,234
+Muriel Becker,br BRA,90.0,7,0,7,1.0,Fluminense,235
+Fábio,br BRA,90.0,0,0,0,,Cruzeiro,235
+Jailson,br BRA,90.0,6,2,4,0.667,Palmeiras,236
+Éverson,br BRA,90.0,3,0,3,1.0,Santos,236
+Léo,br BRA,90.0,2,2,0,0.0,Atl Paranaense,237
+Cássio,br BRA,90.0,2,2,0,0.0,Corinthians,237
+Fernando Miguel,br BRA,90.0,2,0,2,1.0,Vasco da Gama,238
+Vladimir,br BRA,90.0,4,0,4,1.0,Avaí,238
+Wilson,br BRA,90.0,6,3,3,0.5,Atlético Mineiro,239
+Diego Alves,br BRA,90.0,2,1,1,0.5,Flamengo,239
+Jordi Almeida,br BRA,45.0,3,1,2,0.667,CSA,240
+João Carlos,br BRA,45.0,0,0,0,,CSA,240
+Tadeu,br BRA,90.0,2,0,2,1.0,Goiás,240
+Douglas Friedrich,br BRA,90.0,2,2,1,0.5,Bahia,241
+Muriel Becker,br BRA,90.0,5,0,5,1.0,Fluminense,241
+Diego Cavalieri,br BRA,90.0,7,1,6,0.857,Botafogo (RJ),242
+Fernando Prass,br BRA,90.0,0,0,0,,Palmeiras,242
+Vladimir,br BRA,90.0,6,1,5,0.833,Avaí,243
+Diogo Silva,br BRA,90.0,4,0,4,1.0,Ceará,243
+Diego Alves,br BRA,90.0,0,0,0,,Flamengo,244
+Léo,br BRA,90.0,2,2,0,0.0,Atl Paranaense,244
+Marcelo Boeck,br BRA,90.0,4,1,4,1.0,Fortaleza,245
+Fernando Miguel,br BRA,90.0,2,0,2,1.0,Vasco da Gama,245
+Éverson,br BRA,90.0,1,0,1,1.0,Santos,246
+Marcelo Lomba,br BRA,90.0,3,0,3,1.0,Internacional,246
+Cássio,br BRA,90.0,2,1,2,1.0,Corinthians,247
+Tiago Volpi,br BRA,90.0,2,0,2,1.0,São Paulo,247
+Paulo Victor Vidotti,br BRA,90.0,3,1,3,1.0,Grêmio,248
+Wilson,br BRA,90.0,5,4,2,0.4,Atlético Mineiro,248
+Fábio,br BRA,90.0,7,1,6,0.857,Cruzeiro,249
+João Ricardo Riedi,br BRA,90.0,6,1,5,0.833,Chapecoense,249
+Cleiton Schwengber,br BRA,90.0,4,2,3,0.75,Atlético Mineiro,250
+João Carlos,br BRA,90.0,8,2,6,0.75,CSA,250
+Douglas Friedrich,br BRA,90.0,6,0,6,1.0,Bahia,251
+Paulo Victor Vidotti,br BRA,90.0,5,1,5,1.0,Grêmio,251
+Diego Alves,br BRA,90.0,2,1,2,1.0,Flamengo,252
+Felipe Alves Raymundo,br BRA,90.0,2,2,1,0.5,Fortaleza,252
+João Ricardo Riedi,br BRA,90.0,8,1,7,0.875,Chapecoense,253
+Tiepo,br BRA,,0,0,0,,Chapecoense,253
+Wéverton,br BRA,90.0,2,0,2,1.0,Palmeiras,253
+Tiago Volpi,br BRA,90.0,2,1,1,0.5,São Paulo,254
+Fábio,br BRA,90.0,2,0,2,1.0,Cruzeiro,254
+Diego Cavalieri,br BRA,90.0,8,2,6,0.75,Botafogo (RJ),255
+Fernando Miguel,br BRA,90.0,3,1,2,0.667,Vasco da Gama,255
+Cássio,br BRA,90.0,3,2,1,0.33299999999999996,Corinthians,256
+Tadeu,br BRA,90.0,4,2,3,0.75,Goiás,256
+Marcelo Lomba,br BRA,90.0,6,0,6,1.0,Internacional,257
+Vladimir,br BRA,90.0,10,2,8,0.8,Avaí,257
+Diogo Silva,br BRA,90.0,5,2,3,0.6,Ceará,258
+Éverson,br BRA,90.0,3,1,2,0.667,Santos,258
+Santos,br BRA,90.0,4,1,3,0.75,Atl Paranaense,259
+Muriel Becker,br BRA,90.0,4,2,2,0.5,Fluminense,259
+Phelipe Megiolaro,br BRA,90.0,5,2,3,0.6,Grêmio,260
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,260
+Fábio,br BRA,90.0,4,1,3,0.75,Cruzeiro,261
+Walter,br BRA,90.0,4,2,3,0.75,Corinthians,261
+Vladimir,br BRA,90.0,7,1,6,0.857,Avaí,262
+Tiago Volpi,br BRA,90.0,1,0,1,1.0,São Paulo,262
+Fernando Miguel,br BRA,90.0,7,0,7,1.0,Vasco da Gama,263
+Marcelo Lomba,br BRA,90.0,3,1,2,0.667,Internacional,263
+Éverson,br BRA,90.0,4,2,2,0.5,Santos,264
+Cleiton Schwengber,br BRA,90.0,1,0,1,1.0,Atlético Mineiro,264
+Muriel Becker,br BRA,90.0,7,2,5,0.7140000000000001,Fluminense,265
+Diego Alves,br BRA,90.0,4,0,4,1.0,Flamengo,265
+Tadeu,br BRA,90.0,3,2,2,0.667,Goiás,266
+João Ricardo Riedi,br BRA,90.0,8,2,6,0.75,Chapecoense,266
+Wéverton,br BRA,90.0,6,1,5,0.833,Palmeiras,267
+Léo,br BRA,90.0,2,1,1,0.5,Atl Paranaense,267
+Diogo Silva,br BRA,90.0,4,1,3,0.75,Ceará,268
+Douglas Friedrich,br BRA,90.0,6,2,4,0.667,Bahia,268
+João Carlos,br BRA,90.0,6,2,4,0.667,CSA,269
+Gatito Fernández,py PAR,90.0,2,1,2,1.0,Botafogo (RJ),269
+Fernando Miguel,br BRA,90.0,4,1,3,0.75,Vasco da Gama,270
+Diogo Silva,br BRA,90.0,3,1,2,0.667,Ceará,270
+Éverson,br BRA,90.0,5,0,5,1.0,Santos,271
+Cássio,br BRA,90.0,3,0,3,1.0,Corinthians,271
+Marcelo Lomba,br BRA,90.0,5,2,3,0.6,Internacional,272
+Douglas Friedrich,br BRA,90.0,6,3,3,0.5,Bahia,272
+João Ricardo Riedi,br BRA,90.0,8,1,7,0.875,Chapecoense,273
+Muriel Becker,br BRA,90.0,5,1,4,0.8,Fluminense,273
+Felipe Alves Raymundo,br BRA,90.0,5,1,4,0.8,Fortaleza,274
+Fábio,br BRA,90.0,1,1,0,0.0,Cruzeiro,274
+Gatito Fernández,py PAR,90.0,9,3,6,0.667,Botafogo (RJ),275
+Paulo Victor Vidotti,br BRA,90.0,2,0,2,1.0,Grêmio,275
+Tadeu,br BRA,90.0,15,4,11,0.733,Goiás,276
+Santos,br BRA,90.0,2,1,1,0.5,Atl Paranaense,276
+Cleiton Schwengber,br BRA,90.0,6,2,4,0.667,Atlético Mineiro,277
+Tiago Volpi,br BRA,90.0,3,0,3,1.0,São Paulo,277
+Wéverton,br BRA,90.0,5,1,5,1.0,Palmeiras,278
+Vladimir,br BRA,90.0,3,2,2,0.667,Avaí,278
+João Carlos,br BRA,90.0,7,1,6,0.857,CSA,279
+Diego Alves,br BRA,90.0,4,0,4,1.0,Flamengo,279
+Felipe Alves Raymundo,br BRA,90.0,3,1,2,0.667,Fortaleza,280
+Vladimir,br BRA,90.0,5,3,3,0.6,Avaí,280
+Tiago Volpi,br BRA,90.0,8,3,5,0.625,São Paulo,281
+Wéverton,br BRA,90.0,4,0,4,1.0,Palmeiras,281
+Tiepo,br BRA,90.0,0,0,0,,Chapecoense,282
+Cleiton Schwengber,br BRA,90.0,3,2,1,0.33299999999999996,Atlético Mineiro,282
+Paulo Victor Vidotti,br BRA,90.0,1,1,0,0.0,Grêmio,283
+Fernando Miguel,br BRA,90.0,3,3,1,0.33299999999999996,Vasco da Gama,283
+Muriel Becker,br BRA,90.0,5,2,3,0.6,Fluminense,284
+Diogo Silva,br BRA,90.0,4,0,4,1.0,Ceará,284
+Cássio,br BRA,90.0,5,2,3,0.6,Corinthians,285
+João Carlos,br BRA,90.0,2,1,1,0.5,CSA,285
+Douglas Friedrich,br BRA,90.0,4,1,4,1.0,Bahia,286
+Éverson,br BRA,90.0,1,0,1,1.0,Santos,286
+César,br BRA,88.0,2,1,1,0.5,Flamengo,287
+Gabriel Batista,br BRA,1.0,1,1,0,0.0,Flamengo,287
+Tadeu,br BRA,90.0,6,2,4,0.667,Goiás,287
+Santos,br BRA,90.0,2,1,2,0.5,Atl Paranaense,288
+Marcelo Lomba,br BRA,90.0,2,1,1,0.5,Internacional,288
+Fábio,br BRA,90.0,4,0,4,1.0,Cruzeiro,289
+Gatito Fernández,py PAR,90.0,3,2,1,0.33299999999999996,Botafogo (RJ),289
+Cleiton Schwengber,br BRA,90.0,6,2,4,0.667,Atlético Mineiro,290
+Felipe Alves Raymundo,br BRA,90.0,5,2,3,0.6,Fortaleza,290
+Diogo Silva,br BRA,90.0,2,1,1,0.5,Ceará,291
+Wéverton,br BRA,90.0,3,0,4,1.0,Palmeiras,291
+Fernando Miguel,br BRA,90.0,4,0,4,1.0,Vasco da Gama,292
+Muriel Becker,br BRA,90.0,2,0,2,1.0,Fluminense,292
+Tiago Volpi,br BRA,90.0,9,0,9,1.0,São Paulo,293
+Tiepo,br BRA,90.0,6,3,3,0.5,Chapecoense,293
+Cássio,br BRA,70.0,3,4,0,-0.33299999999999996,Corinthians,294
+Caíque França,br BRA,20.0,0,0,0,,Corinthians,294
+Diego Alves,br BRA,90.0,4,1,3,0.75,Flamengo,294
+João Carlos,br BRA,90.0,1,1,0,0.0,CSA,295
+Santos,br BRA,90.0,0,0,0,,Atl Paranaense,295
+Marcelo Lomba,br BRA,50.0,4,1,3,0.75,Internacional,296
+Danilo Fernandes,br BRA,34.0,5,1,4,0.8,Internacional,296
+Paulo Victor Vidotti,br BRA,90.0,0,0,0,,Grêmio,296
+Douglas Friedrich,br BRA,90.0,5,1,4,0.8,Bahia,297
+Fábio,br BRA,90.0,2,1,2,1.0,Cruzeiro,297
+Gatito Fernández,py PAR,90.0,12,4,8,0.667,Botafogo (RJ),298
+Éverson,br BRA,90.0,6,1,5,0.833,Santos,298
+Vladimir,br BRA,90.0,5,2,4,0.8,Avaí,299
+Tadeu,br BRA,90.0,4,0,4,1.0,Goiás,299
+Felipe Alves Raymundo,br BRA,90.0,6,3,3,0.5,Fortaleza,300
+Walter,br BRA,90.0,8,2,6,0.75,Corinthians,300
+Tadeu,br BRA,90.0,11,2,9,0.818,Goiás,301
+Cleiton Schwengber,br BRA,90.0,3,0,3,1.0,Atlético Mineiro,301
+Éverson,br BRA,90.0,4,1,3,0.75,Santos,302
+Lucas Frigeri,br BRA,90.0,3,2,1,0.33299999999999996,Avaí,302
+João Ricardo Riedi,br BRA,90.0,7,1,6,0.857,Chapecoense,303
+Douglas Friedrich,br BRA,90.0,2,1,1,0.5,Bahia,303
+Fábio,br BRA,90.0,0,0,0,,,304
+Santos,br BRA,90.0,0,0,0,,,304
+Fernando Prass,br BRA,90.0,4,1,3,0.75,Palmeiras,305
+Fernando Miguel,br BRA,90.0,6,2,4,0.667,Vasco da Gama,305
+Danilo Fernandes,br BRA,90.0,4,2,2,0.5,Internacional,306
+Diogo Silva,br BRA,90.0,3,0,3,1.0,Ceará,306
+Muriel Becker,br BRA,90.0,4,0,4,1.0,Fluminense,307
+Tiago Volpi,br BRA,90.0,4,2,2,0.5,São Paulo,307
+Diego Alves,br BRA,90.0,2,0,2,1.0,Flamengo,308
+Gatito Fernández,py PAR,90.0,3,1,2,0.667,Botafogo (RJ),308
+João Carlos,br BRA,90.0,4,2,2,0.5,CSA,309
+Paulo Victor Vidotti,br BRA,90.0,3,1,2,0.667,Grêmio,309
+Éverson,br BRA,90.0,2,0,2,1.0,Santos,310
+Tadeu,br BRA,90.0,11,3,8,0.727,Goiás,310
+Walter,br BRA,90.0,5,1,5,0.8,Corinthians,311
+Wéverton,br BRA,90.0,2,1,1,0.5,Palmeiras,311
+Muriel Becker,br BRA,90.0,5,2,3,0.6,Fluminense,312
+Marcelo Lomba,br BRA,90.0,5,1,4,0.8,Internacional,312
+Santos,br BRA,90.0,0,0,0,,Atl Paranaense,313
+Tiago Volpi,br BRA,90.0,1,1,0,0.0,São Paulo,313
+Cleiton Schwengber,br BRA,90.0,2,0,2,1.0,Atlético Mineiro,314
+Fábio,br BRA,90.0,0,0,0,,Cruzeiro,314
+Douglas Friedrich,br BRA,90.0,8,3,5,0.625,Bahia,315
+Diego Alves,br BRA,90.0,3,1,2,0.667,Flamengo,315
+Diogo Silva,br BRA,90.0,2,1,1,0.5,Ceará,316
+Felipe Alves Raymundo,br BRA,90.0,3,0,3,1.0,Fortaleza,316
+Fernando Miguel,br BRA,90.0,4,0,4,1.0,Vasco da Gama,317
+João Carlos,br BRA,90.0,7,3,4,0.5710000000000001,CSA,317
+Paulo Victor Vidotti,br BRA,90.0,2,0,2,1.0,Grêmio,318
+João Ricardo Riedi,br BRA,90.0,2,1,1,0.5,Chapecoense,318
+Vladimir,br BRA,90.0,4,2,3,0.75,Avaí,319
+Gatito Fernández,py PAR,90.0,5,0,5,1.0,Botafogo (RJ),319
+Fernando Miguel,br BRA,90.0,5,4,1,0.2,Vasco da Gama,320
+Diego Alves,br BRA,90.0,5,4,2,0.4,Flamengo,320
+Tiago Volpi,br BRA,90.0,2,1,2,1.0,São Paulo,321
+Éverson,br BRA,90.0,4,1,3,0.75,Santos,321
+Cleiton Schwengber,br BRA,90.0,5,1,4,0.8,Atlético Mineiro,322
+Marcos Felipe,br BRA,90.0,5,1,4,0.8,Fluminense,322
+Diego Alves,br BRA,90.0,5,0,5,1.0,Flamengo,323
+Paulo Victor Vidotti,br BRA,90.0,4,1,4,1.0,Grêmio,323
+Wéverton,br BRA,90.0,5,1,4,0.8,Palmeiras,324
+Douglas Friedrich,br BRA,90.0,5,1,4,0.8,Bahia,324
+Marcelo Lomba,br BRA,90.0,3,0,3,1.0,Internacional,325
+Cássio,br BRA,90.0,2,0,2,1.0,Corinthians,325
+Diego Cavalieri,br BRA,90.0,1,1,0,0.0,Botafogo (RJ),326
+Léo,br BRA,90.0,0,0,0,,Atl Paranaense,326
+Diogo Silva,br BRA,90.0,5,1,4,0.8,Ceará,327
+João Ricardo Riedi,br BRA,90.0,6,0,6,1.0,Chapecoense,327
+João Carlos,br BRA,90.0,6,3,3,0.5,CSA,328
+Felipe Alves Raymundo,br BRA,90.0,2,0,2,1.0,Fortaleza,328
+Tadeu,br BRA,90.0,3,1,2,0.667,Goiás,329
+Fernando Miguel,br BRA,90.0,6,1,5,0.833,Vasco da Gama,329
+Vladimir,br BRA,90.0,3,0,3,1.0,Avaí,330
+Fábio,br BRA,90.0,4,0,4,1.0,Cruzeiro,330
+Fábio,br BRA,90.0,11,4,7,0.636,Cruzeiro,331
+Éverson,br BRA,90.0,2,1,1,0.5,Santos,331
+Douglas Friedrich,br BRA,90.0,5,4,1,0.2,Bahia,332
+Tadeu,br BRA,90.0,3,3,0,0.0,Goiás,332
+Santos,br BRA,90.0,0,0,0,,Atl Paranaense,333
+Cleiton Schwengber,br BRA,90.0,1,1,0,0.0,Atlético Mineiro,333
+Paulo Victor Vidotti,br BRA,90.0,5,1,5,1.0,Grêmio,334
+Wéverton,br BRA,90.0,2,2,1,0.5,Palmeiras,334
+Cássio,br BRA,90.0,5,1,4,0.8,Corinthians,335
+Gatito Fernández,py PAR,90.0,5,0,5,1.0,Botafogo (RJ),335
+Tiago Volpi,br BRA,90.0,6,1,5,0.833,São Paulo,336
+Diogo Silva,br BRA,90.0,2,1,1,0.5,Ceará,336
+Felipe Alves Raymundo,br BRA,90.0,6,2,4,0.667,Fortaleza,337
+Marcelo Lomba,br BRA,90.0,1,2,0,-1.0,Internacional,337
+João Ricardo Riedi,br BRA,90.0,2,0,2,1.0,Chapecoense,338
+Vladimir,br BRA,90.0,2,1,1,0.5,Avaí,338
+Marcos Felipe,br BRA,90.0,4,0,4,1.0,Fluminense,339
+Jordi Almeida,br BRA,90.0,7,1,6,0.857,CSA,339
+Tadeu,br BRA,90.0,9,1,8,0.889,Goiás,340
+Marcelo Lomba,br BRA,90.0,6,2,4,0.667,Internacional,340
+Gatito Fernández,py PAR,90.0,4,0,4,1.0,Botafogo (RJ),341
+João Ricardo Riedi,br BRA,90.0,2,1,1,0.5,Chapecoense,341
+Cleiton Schwengber,br BRA,90.0,4,1,3,0.75,Atlético Mineiro,342
+Douglas Friedrich,br BRA,90.0,3,1,2,0.667,Bahia,342
+Diogo Silva,br BRA,90.0,8,4,4,0.5,Ceará,343
+Diego Alves,br BRA,90.0,1,1,0,0.0,Flamengo,343
+Vladimir,br BRA,90.0,9,3,6,0.667,Avaí,344
+Cássio,br BRA,90.0,1,0,1,1.0,Corinthians,344
+Paulo Victor Vidotti,br BRA,90.0,1,2,0,0.0,Grêmio,345
+Santos,br BRA,90.0,0,0,0,,Atl Paranaense,345
+Wéverton,br BRA,90.0,4,1,3,0.75,Palmeiras,346
+Marcos Felipe,br BRA,90.0,3,0,3,1.0,Fluminense,346
+Éverson,br BRA,90.0,3,2,1,0.33299999999999996,Santos,347
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,347
+Fernando Miguel,br BRA,90.0,5,1,4,0.8,Vasco da Gama,348
+Tiago Volpi,br BRA,90.0,5,0,5,1.0,São Paulo,348
+Jordi Almeida,br BRA,90.0,9,0,9,1.0,CSA,349
+Fábio,br BRA,90.0,3,1,2,0.667,Cruzeiro,349
+Marcelo Lomba,br BRA,90.0,1,0,1,1.0,Internacional,350
+Gatito Fernández,py PAR,90.0,7,1,6,0.857,Botafogo (RJ),350
+Santos,br BRA,90.0,8,1,7,0.875,Atl Paranaense,351
+Diogo Silva,br BRA,90.0,3,1,2,0.667,Ceará,351
+Marcos Felipe,br BRA,90.0,0,1,0,,Fluminense,352
+Vladimir,br BRA,90.0,2,1,1,0.5,Avaí,352
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,353
+Tadeu,br BRA,90.0,6,2,4,0.667,Goiás,353
+Diego Alves,br BRA,90.0,5,1,4,0.8,Flamengo,354
+Jailson,br BRA,90.0,8,3,5,0.625,Palmeiras,354
+Douglas Friedrich,br BRA,90.0,4,1,3,0.75,Bahia,355
+Jordi Almeida,br BRA,90.0,8,2,6,0.75,CSA,355
+Cássio,br BRA,90.0,8,2,7,0.875,Corinthians,356
+Cleiton Schwengber,br BRA,90.0,4,1,3,0.75,Atlético Mineiro,356
+Tiago Volpi,br BRA,90.0,3,3,1,0.33299999999999996,São Paulo,357
+Paulo Victor Vidotti,br BRA,90.0,1,0,1,1.0,Grêmio,357
+João Ricardo Riedi,br BRA,90.0,5,2,3,0.6,Chapecoense,358
+Éverson,br BRA,90.0,0,0,0,,Santos,358
+Fábio,br BRA,90.0,1,1,0,0.0,Cruzeiro,359
+Fernando Miguel,br BRA,90.0,1,0,1,1.0,Vasco da Gama,359
+Éverson,br BRA,90.0,3,1,2,0.667,Santos,360
+Santos,br BRA,90.0,3,0,3,1.0,Atl Paranaense,360
+Cássio,br BRA,90.0,2,0,2,1.0,Corinthians,361
+Diogo Silva,br BRA,90.0,2,1,1,0.5,Ceará,361
+Gatito Fernández,py PAR,90.0,8,2,6,0.75,Botafogo (RJ),362
+Cleiton Schwengber,br BRA,90.0,6,0,6,1.0,Atlético Mineiro,362
+Jordi Almeida,br BRA,90.0,6,3,3,0.5,CSA,363
+João Ricardo Riedi,br BRA,90.0,3,0,3,1.0,Chapecoense,363
+Felipe Alves Raymundo,br BRA,90.0,3,0,3,1.0,Fortaleza,364
+Marcos Felipe,br BRA,90.0,4,0,4,1.0,Fluminense,364
+Marcelo Lomba,br BRA,90.0,8,2,6,0.75,Internacional,365
+Tiago Volpi,br BRA,90.0,2,1,1,0.5,São Paulo,365
+Tadeu,br BRA,90.0,6,5,1,0.16699999999999998,Goiás,366
+Wéverton,br BRA,90.0,2,1,2,1.0,Palmeiras,366
+Fernando Miguel,br BRA,90.0,3,1,3,1.0,Vasco da Gama,367
+Douglas Friedrich,br BRA,90.0,4,1,3,0.75,Bahia,367
+Fábio,br BRA,90.0,6,2,5,0.833,Cruzeiro,368
+Paulo Victor Vidotti,br BRA,90.0,2,0,2,1.0,Grêmio,368
+Vladimir,br BRA,90.0,13,6,7,0.5379999999999999,Avaí,369
+César,br BRA,90.0,3,1,2,0.667,Flamengo,369
+Marcos Felipe,br BRA,90.0,4,1,3,0.75,Fluminense,370
+Cássio,br BRA,90.0,3,2,1,0.33299999999999996,Corinthians,370
+Phelipe Megiolaro,br BRA,90.0,6,3,3,0.5,Grêmio,371
+Tadeu,br BRA,90.0,6,2,4,0.667,Goiás,371
+Lucas Perri,br BRA,90.0,6,1,5,0.833,São Paulo,372
+Jordi Almeida,br BRA,90.0,4,2,2,0.5,CSA,372
+Victor Leandro Bagy,br BRA,90.0,7,2,5,0.7140000000000001,Atlético Mineiro,373
+Marcelo Lomba,br BRA,90.0,4,1,3,0.75,Internacional,373
+Diogo Silva,br BRA,90.0,2,1,1,0.5,Ceará,374
+Diego Cavalieri,br BRA,90.0,1,1,1,1.0,Botafogo (RJ),374
+João Ricardo Riedi,br BRA,90.0,6,1,6,1.0,Chapecoense,375
+Fernando Miguel,br BRA,45.0,1,0,1,1.0,Vasco da Gama,375
+Sidão,br BRA,45.0,1,1,0,0.0,Vasco da Gama,375
+Léo,br BRA,90.0,0,0,0,,,376
+Lucas Frigeri,br BRA,90.0,0,0,0,,,376
+Wéverton,br BRA,90.0,3,0,3,1.0,Palmeiras,377
+Fábio,br BRA,90.0,5,2,3,0.6,Cruzeiro,377
+Diego Alves,br BRA,90.0,8,4,4,0.5,Flamengo,378
+Éverson,br BRA,90.0,1,0,1,1.0,Santos,378
+Douglas Friedrich,br BRA,90.0,4,2,2,0.5,Bahia,379
+Felipe Alves Raymundo,br BRA,90.0,4,1,3,0.75,Fortaleza,379

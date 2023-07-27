@@ -12,13 +12,19 @@ def normalize_string(string: str) -> str:
 
 
 def build_data_lake_path(
-    date: str, home: str, away: str, week: int, filename: str
+    date: str,
+    home: str,
+    away: str,
+    week: int,
+    filename: str,
+    season_year: int
 ) -> str:
     import os
 
     return os.path.join(
         BUCKET_NAME,
         "raw",
+        str(season_year),
         str(week),
         date.replace("-", ""),
         normalize_string(home) + "_" + normalize_string(away),

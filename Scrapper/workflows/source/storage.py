@@ -3,19 +3,13 @@ import pandas as pd
 
 
 def get_s3_client():
-    import os
-    from dotenv import load_dotenv
+    from prefect.blocks.system import JSON
 
-    load_dotenv()
-
-    ACCESS_KEY = os.environ.get("ACCESS_KEY")
-    SECRET_KEY = os.environ.get("SECRET_KEY")
-    S3_HOST = "https://host.docker.internal:9000"
-
+    credentials = JSON.load("s3-credentials")
     s3 = s3fs.S3FileSystem(
-        endpoint_url=S3_HOST,
-        key=ACCESS_KEY,
-        secret=SECRET_KEY,
+        endpoint_url=credentials.value["endpoint_url"],
+        key=credentials.value["aws_access_key_id"],
+        secret=credentials.value["aws_secret_access_key"],
         anon=False,
         use_ssl=False,
     )
@@ -27,5 +21,6 @@ def load_to_bucket(
     dataframe: pd.DataFrame,
     storage_path: str
 ):
+    # TODO: verify if bucket exists
     with s3_client.open(f"s3://{storage_path}", "w") as f:
         dataframe.to_csv(f)

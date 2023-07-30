@@ -1,129 +1,150 @@
-from pyspark.sql.types import StructType, StructField, IntegerType, StringType
+from pyspark.sql.types import (
+    StructType,
+    StructField,
+    IntegerType,
+    StringType,
+    FloatType
+)
 
 schema = StructType([
     StructField(name="player_name",
                 dataType=StringType(),
-                nullablebool=False
+                nullable=False
                 ),
     StructField(name="shirtnumber",
                 dataType=StringType(),
-                nullablebool=False
+                nullable=False
                 ),
     StructField(name="nationality",
                 dataType=StringType(),
-                nullablebool=False
+                nullable=False
                 ),
     StructField(name="position",
                 dataType=StringType(),
-                nullablebool=False
+                nullable=False
                 ),
     StructField(name="age",
-                dataType=IntegerType(),
-                nullablebool=False
+                dataType=StringType(),
+                nullable=False
                 ),
     StructField(name="minutes",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="goals",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="assists",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="penalties_made",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="penalties_attempted",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="shots",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="shots_on_target",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="cards_yellow",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="cards_red",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="touches",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="tackles",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="interceptions",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="blocks",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="dummy1",
-                dataType=IntegerType(),
-                nullablebool=True
+                dataType=StringType(),
+                nullable=True
                 ),
     StructField(name="dummy2",
-                dataType=IntegerType(),
-                nullablebool=True
+                dataType=StringType(),
+                nullable=True
                 ),
     StructField(name="dummy3",
-                dataType=IntegerType(),
-                nullablebool=True
+                dataType=StringType(),
+                nullable=True
                 ),
     StructField(name="dummy4",
-                dataType=IntegerType(),
-                nullablebool=True
+                dataType=StringType(),
+                nullable=True
                 ),
     StructField(name="dummy5",
-                dataType=IntegerType(),
-                nullablebool=True
+                dataType=StringType(),
+                nullable=True
                 ),
     StructField(name="passes_completed",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="passes",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="passes_pct",
-                dataType=IntegerType(),
-                nullablebool=True
+                dataType=FloatType(),
+                nullable=True
                 ),
     StructField(name="progressive_passes",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="carries",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="progressive_carries",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="take_ons",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
                 ),
     StructField(name="take_ons_won",
                 dataType=IntegerType(),
-                nullablebool=True
+                nullable=True
+                ),
+    StructField(name="week",
+                dataType=StringType(),
+                nullable=False
+                ),
+    StructField(name="date",
+                dataType=StringType(),
+                nullable=False
+                ),
+    StructField(name="team_home",
+                dataType=StringType(),
+                nullable=False
+                ),
+    StructField(name="team_away",
+                dataType=StringType(),
+                nullable=False
                 ),
 ])
-

@@ -3,13 +3,13 @@ import pandas as pd
 
 
 def get_s3_client():
-    from prefect.blocks.system import JSON
+    from prefect_aws import AwsCredentials
 
-    credentials = JSON.load("s3-credentials")
+    credentials = AwsCredentials.load("s3-credentials")
     s3 = s3fs.S3FileSystem(
-        endpoint_url=credentials.value["endpoint_url"],
-        key=credentials.value["aws_access_key_id"],
-        secret=credentials.value["aws_secret_access_key"],
+        endpoint_url="http://minio:9000",
+        key=credentials.aws_access_key_id,
+        secret=credentials.aws_secret_access_key.get_secret_value(),
         anon=False,
         use_ssl=False,
     )
@@ -23,4 +23,4 @@ def load_to_bucket(
 ):
     # TODO: verify if bucket exists
     with s3_client.open(f"s3://{storage_path}", "w") as f:
-        dataframe.to_csv(f)
+        dataframe.to_csv(f, index=False)

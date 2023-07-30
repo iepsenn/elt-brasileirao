@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from typing import List, Dict
+from source.utils import normalize_string
 
 
 def get_content_from_url(url: str) -> BeautifulSoup:
@@ -47,7 +48,13 @@ def get_season_schedule(url: str) -> pd.DataFrame:
     return match_schedule
 
 
-def get_match_detail_tables(url: str) -> List[pd.DataFrame]:
+def get_match_detail_tables(
+        url: str,
+        week: int,
+        date: str,
+        team_home: str,
+        team_away: str
+) -> List[pd.DataFrame]:
     """Receives a url of the page with details of the match and returns \
         a tuple with the tables with statistics of the match."""
     table_indices = {
@@ -69,11 +76,18 @@ def get_match_detail_tables(url: str) -> List[pd.DataFrame]:
     def get_statistics_table(
         page_content: BeautifulSoup, table_index: int
     ) -> List[Dict[str, pd.DataFrame]]:
-        return pd.read_html(
+        table = pd.read_html(
             str(page_content.findAll(
                 "table", {"class": "stats_table"}
             )[table_index])
         )[0]
+
+        table["week"] = week
+        table["date"] = date.replace("-", "")
+        table["team_home"] = normalize_string(team_home)
+        table["team_away"] = normalize_string(team_away)
+
+        return table
 
     tables = {}
     page_content = get_content_from_url(url)

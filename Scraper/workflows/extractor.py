@@ -4,7 +4,7 @@ import pandas as pd
 from time import sleep
 
 from source.storage import get_s3_client, load_to_bucket
-from source.scrapper import (
+from source.scraper import (
     get_match_detail_tables,
     get_season_schedule,
 )
@@ -25,9 +25,9 @@ def load_match_details_to_storage(
         return
 
     # Build the storage path in the format:
-    # <BUCKET_NAME>/raw/<GAME_WEEK>/"%y%m%d"/<HOME_TEAM>_<AWAY_TEAM>
+    # <BUCKET_NAME>/raw/<SEASON_YEAR>/<GAME_WEEK>/"%y%m%d"/<HOME_TEAM>_<AWAY_TEAM>
     storage_base_path = build_data_lake_path(
-        year=int(match_info.iloc[0].Date.split("-")[0]),
+        year=int(match_info.Date.split("-")[0]),
         week=int(match_info.Wk),
         date=match_info.Date,
         home=match_info.Home,
@@ -35,7 +35,13 @@ def load_match_details_to_storage(
         filename="",
     )
 
-    match_detail_tables = get_match_detail_tables(match_info.Url)
+    match_detail_tables = get_match_detail_tables(
+        url=match_info.Url,
+        week=match_info.Wk,
+        date=match_info.Date,
+        team_home=match_info.Home,
+        team_away=match_info.Away,
+    )
     for filename, table in match_detail_tables.items():
         file_path = os.path.join(storage_base_path, f"{filename}.csv")
         print(f"Loading file to {file_path}.")

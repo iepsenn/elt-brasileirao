@@ -1,5 +1,5 @@
-import s3fs
 import pandas as pd
+import s3fs
 
 
 def get_s3_client():
@@ -17,9 +17,7 @@ def get_s3_client():
 
 
 def load_to_bucket(
-    s3_client: s3fs.S3FileSystem,
-    dataframe: pd.DataFrame,
-    storage_path: str
+    s3_client: s3fs.S3FileSystem, dataframe: pd.DataFrame, storage_path: str
 ):
     # TODO: verify if bucket exists
     with s3_client.open(f"s3://{storage_path}", "w") as f:

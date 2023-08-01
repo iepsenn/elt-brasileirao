@@ -7,7 +7,7 @@ def create_blocks():
     AwsCredentials(
         aws_access_key_id=os.environ.get("AWS_ACCESS_KEY_ID"),
         aws_secret_access_key=os.environ.get("AWS_SECRET_ACCESS_KEY"),
-    ).save("s3-credentials")
+    ).save("s3-credentials", overwrite=True)
 
 
 if __name__ == "__main__":

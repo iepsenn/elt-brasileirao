@@ -1,0 +1,35 @@
+import pyspark.sql.types as st
+
+schema = st.StructType(
+    [
+        st.StructField(name="player_name", dataType=st.StringType(), nullable=False),
+        st.StructField(name="shirtnumber", dataType=st.StringType(), nullable=False),
+        st.StructField(name="nationality", dataType=st.StringType(), nullable=False),
+        st.StructField(name="position", dataType=st.StringType(), nullable=False),
+        st.StructField(name="age", dataType=st.StringType(), nullable=False),
+        st.StructField(name="minutes", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="touches", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="touches_defense_penalty_area", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="touches_defense_3rd", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="touches_mid_3rd", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="touches_attack_3rd", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="touches_attack_penalty_area", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="touches_live_ball", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="take_ons", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="take_ons_won", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="take_ons_won_pct", dataType=st.FloatType(), nullable=True),
+        st.StructField(name="take_ons_tackled", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="take_ons_tackled_pct", dataType=st.FloatType(), nullable=True),
+        st.StructField(name="carries", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="carries_distance", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="carries_progressive_distance", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="progressive_carries", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="carries_into_final_third", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="carries_into_penalty_area", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="miscontrols", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="dispossessed", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_received", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="progressive_passes_received", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="match_id", dataType=st.IntegerType(), nullable=False),
+    ]
+)

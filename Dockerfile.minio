@@ -1,0 +1,26 @@
+FROM ubuntu:23.10
+
+# install aws cli
+RUN apt update && \
+    apt install -y groff nano curl wget unzip && \
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
+    unzip awscliv2.zip && \
+    aws/install --update
+
+# install minio
+RUN wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20230718174940.0.0_amd64.deb -O minio.deb
+RUN dpkg -i minio.deb
+
+# install minio client
+RUN curl https://dl.min.io/client/mc/release/linux-amd64/mc --create-dirs -o /tmp/minio-binaries/mc
+RUN chmod +x /tmp/minio-binaries/mc
+ENV PATH="${PATH}:/tmp/minio-binaries/"
+
+RUN mkdir -p /opt/minio/
+WORKDIR /opt/minio/
+
+COPY minio/bucket_setup.sh /opt/minio/.
+
+ARG AWS_ACCESS_KEY_ID
+ARG AWS_SECRET_ACCESS_KEY
+CMD minio server /opt/minio/ --console-address ":9001"

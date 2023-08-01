@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # Volume folders
-Scraper/minio/
-Scraper/prefect/database/
+minio/data/
+prefect/database/

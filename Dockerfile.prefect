@@ -1,0 +1,22 @@
+FROM prefecthq/prefect:2-python3.10-conda
+
+WORKDIR /opt/prefect
+
+# install requirements
+COPY requirements.txt .
+RUN pip install --upgrade pip --no-cache-dir
+RUN pip install -r requirements.txt
+RUN pip install prefect-aws
+
+# Install OpenJDK-11
+RUN apt-get update && \
+    apt-get install -y nano tmux openjdk-11-jre-headless && \
+    apt-get clean;
+
+# copy script to register credentials blocks in prefect
+COPY prefect/create_blocks.py .
+COPY prefect/prefect.yaml .
+
+# start prefect server
+CMD prefect config set PREFECT_UI_API_URL="http://localhost:4200/api" && \
+    prefect server start --host 0.0.0.0

@@ -1,0 +1,35 @@
+import pyspark.sql.types as st
+
+schema = st.StructType(
+    [
+        st.StructField(name="player_name", dataType=st.StringType(), nullable=False),
+        st.StructField(name="shirtnumber", dataType=st.StringType(), nullable=False),
+        st.StructField(name="nationality", dataType=st.StringType(), nullable=False),
+        st.StructField(name="position", dataType=st.StringType(), nullable=False),
+        st.StructField(name="age", dataType=st.StringType(), nullable=False),
+        st.StructField(name="minutes", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_completed", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_pct", dataType=st.FloatType(), nullable=True),
+        st.StructField(name="passes_total_distance", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_progressive_distance", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_completed_short", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_short", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_pct_short", dataType=st.FloatType(), nullable=True),
+        st.StructField(name="passes_completed_medium", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_medium", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_pct_medium", dataType=st.FloatType(), nullable=True),
+        st.StructField(name="passes_completed_long", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_long", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_pct_long", dataType=st.FloatType(), nullable=True),
+        st.StructField(name="assists", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="dummy1", dataType=st.StringType(), nullable=True),
+        st.StructField(name="dummy2", dataType=st.StringType(), nullable=True),
+        st.StructField(name="assisted_shots", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_into_final_third", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="passes_into_penalty_area", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="crosses_into_penalty_area", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="progressive_passes", dataType=st.IntegerType(), nullable=True),
+        st.StructField(name="match_id", dataType=st.IntegerType(), nullable=False),
+    ]
+)

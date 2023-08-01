@@ -1,8 +1,8 @@
+from typing import Dict, List
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
-from typing import List, Dict
-from source.utils import normalize_string
 
 
 def get_content_from_url(url: str) -> BeautifulSoup:
@@ -32,8 +32,7 @@ def get_season_schedule(url: str) -> pd.DataFrame:
                 url_match_list.append(None)
         return list(
             map(
-                lambda url: "https://fbref.com" + url
-                if url is not None else url,
+                lambda url: "https://fbref.com" + url if url is not None else url,
                 url_match_list,
             )
         )
@@ -42,18 +41,13 @@ def get_season_schedule(url: str) -> pd.DataFrame:
     match_schedule = pd.read_html(str(page_content.findAll("table")))[0]
     match_schedule["Url"] = get_match_details_page_url(page_content)
 
-    match_schedule = match_schedule[
-        ~match_schedule.Home.isna() & ~match_schedule.Away.isna()
-    ]
+    match_schedule = match_schedule[~match_schedule.Home.isna() & ~match_schedule.Away.isna()]
     return match_schedule
 
 
 def get_match_detail_tables(
-        url: str,
-        week: int,
-        date: str,
-        team_home: str,
-        team_away: str
+    url: str,
+    match_id: int,
 ) -> List[pd.DataFrame]:
     """Receives a url of the page with details of the match and returns \
         a tuple with the tables with statistics of the match."""
@@ -77,17 +71,11 @@ def get_match_detail_tables(
         page_content: BeautifulSoup, table_index: int
     ) -> List[Dict[str, pd.DataFrame]]:
         table = pd.read_html(
-            str(page_content.findAll(
-                "table", {"class": "stats_table"}
-            )[table_index])
+            str(page_content.findAll("table", {"class": "stats_table"})[table_index]),
+            header=1,
         )[0]
-
-        table["week"] = week
-        table["date"] = date.replace("-", "")
-        table["team_home"] = normalize_string(team_home)
-        table["team_away"] = normalize_string(team_away)
-
-        return table
+        table["match_id"] = match_id
+        return table.iloc[:-1]
 
     tables = {}
     page_content = get_content_from_url(url)

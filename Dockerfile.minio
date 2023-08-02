@@ -2,10 +2,7 @@ FROM ubuntu:23.10
 
 # install aws cli
 RUN apt update && \
-    apt install -y groff nano curl wget unzip && \
-    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
-    unzip awscliv2.zip && \
-    aws/install --update
+    apt install -y groff nano curl wget
 
 # install minio
 RUN wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio_20230718174940.0.0_amd64.deb -O minio.deb

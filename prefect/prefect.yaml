@@ -14,14 +14,14 @@ pull:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: etl
+- name: elt
   version: null
   tags: []
   description: null
-  entrypoint: /opt/prefect/workflows/etl.py:etl
+  entrypoint: /opt/prefect/workflows/elt.py:elt
   parameters: {}
   work_pool:
-    name: etl-pool
+    name: elt-pool
     work_queue_name: null
     job_variables: {}
   schedule: null

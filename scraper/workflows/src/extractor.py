@@ -4,15 +4,16 @@ from time import sleep
 
 import pandas as pd
 import s3fs
-from src.scraper import get_match_detail_tables, get_season_schedule
-from src.storage import get_s3_client, load_to_bucket
-from src.utils import BUCKET_NAME, build_data_lake_path
 
 from prefect import flow, task
 from prefect.tasks import task_input_hash
+from scraper.workflows.src.utils import (BUCKET_NAME, build_data_lake_path,
+                                         get_match_detail_tables,
+                                         get_s3_client, get_season_schedule,
+                                         load_to_bucket)
 
 
-@task(cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1))
+@task(cache_key_fn=task_input_hash, cache_expiration=timedelta(hours=1))
 def load_match_details_to_storage(match_info: pd.Series, s3_client: s3fs.S3FileSystem):
     if match_info.Url is None:
         return
@@ -45,12 +46,7 @@ def load_match_details_to_storage(match_info: pd.Series, s3_client: s3fs.S3FileS
     return
 
 
-@task(
-    cache_key_fn=task_input_hash,
-    cache_expiration=timedelta(days=1),
-    retries=3,
-    retry_delay_seconds=60,
-)
+@task(cache_key_fn=task_input_hash, cache_expiration=timedelta(hours=1))
 def extract_season_schedule(url: str):
     # Get match detail tables
     return get_season_schedule(url)
@@ -86,7 +82,7 @@ def extract_season_data(season_url: str):
         df[df.Wk == game_week].apply(
             lambda x: load_match_details_to_storage.submit(x, s3_client), axis=1
         )
-        break  # to test
+        # break
 
     # Save season schedule metadata
     load_season_schedule_metadata_to_datalake(

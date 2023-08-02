@@ -16,6 +16,7 @@ services:
       - ".env"
     volumes:
       - ./minio/data:/data
+      - ./minio/buckets:/opt/minio
     restart: always
     networks:
       - backend
@@ -24,9 +25,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.prefect
-      args:
-        - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
-        - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
     container_name: prefect
     volumes:
       - ./prefect/database:/root/.prefect
@@ -40,6 +38,21 @@ services:
       - backend
     depends_on:
       - minio
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:23.7.1.2470-alpine
+    container_name: clickhouse
+    user: "${UID}:${GID}"
+    env_file:
+      - ".env"
+    ports:
+      - 8123:8123
+      - 9090:9000
+    networks:
+      - backend
+    volumes:
+      - ./clickhouse/data:/var/lib/clickhouse/
+      - ./clickhouse/logs:/var/log/clickhouse-server/
 
 networks:
   backend: {}

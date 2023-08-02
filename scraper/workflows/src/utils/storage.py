@@ -1,10 +1,9 @@
 import pandas as pd
 import s3fs
+from prefect_aws import AwsCredentials
 
 
 def get_s3_client():
-    from prefect_aws import AwsCredentials
-
     credentials = AwsCredentials.load("s3-credentials")
     s3 = s3fs.S3FileSystem(
         endpoint_url="http://minio:9000",

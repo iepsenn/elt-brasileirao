@@ -1,5 +1,5 @@
 from src.extractor import extract_season_data
-from src.transformer import transform_raw_data
+from src.loader import load_data
 
 from prefect import flow
 
@@ -9,11 +9,11 @@ seasons_to_extract = {
 
 
 @flow(retries=3, retry_delay_seconds=90, log_prints=True)
-def etl():
+def elt():
     for year, url in seasons_to_extract.items():
         extract_season_data(url)
-        transform_raw_data(year)
+        load_data(year)
 
 
 if __name__ == "__main__":
-    etl()
+    elt()

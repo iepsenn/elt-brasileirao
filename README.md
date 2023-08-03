@@ -1,5 +1,12 @@
 # Scraper Brasileirao
 
+<p>
+<img alt="Docker" src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
+<img alt="Prefect" src="https://img.shields.io/badge/Prefect-%23ffffff.svg?style=for-the-badge&logo=prefect&logoColor=blue"/>
+<img alt="Clickhouse" src="https://img.shields.io/badge/ClickHouse-E9C46A?style=for-the-badge&logo=Clickhouse&logoColor=black"/>
+<img alt="PySpark" src="https://img.shields.io/badge/spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
+<img alt="Pandas" src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
+
 ---
 
 ## Project Organization

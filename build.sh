@@ -1,4 +1,4 @@
-docker compose up -d --build && \
+docker compose -f docker/docker-compose.yml up -d --build && \
 sleep 5 && \
 docker exec -it minio sh bucket_setup.sh && \
 docker exec -it prefect /opt/conda/envs/prefect/bin/python create_blocks.py && \

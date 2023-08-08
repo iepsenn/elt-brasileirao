@@ -32,10 +32,10 @@
 
 ---
 
-## :rocket: Launch the Project
+## Launch the Project
 
 ```bash
-docker compose up -d
+sh build.sh
 ```
 
 - `prefect` - Prefect UI, available on [http://localhost:4200](http://localhost:4200)

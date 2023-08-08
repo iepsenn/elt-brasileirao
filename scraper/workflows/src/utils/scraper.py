@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 
 def get_content_from_url(url: str) -> BeautifulSoup:
+    print(f"Page URL: {url}")
     request = requests.get(url)
     page_content = BeautifulSoup(request.content, "html.parser")
     return page_content

@@ -7,10 +7,9 @@ import s3fs
 
 from prefect import flow, task
 from prefect.tasks import task_input_hash
-from scraper.workflows.src.utils import (BUCKET_NAME, build_data_lake_path,
-                                         get_match_detail_tables,
-                                         get_s3_client, get_season_schedule,
-                                         load_to_bucket)
+
+from .utils import (BUCKET_NAME, build_data_lake_path, get_match_detail_tables,
+                    get_s3_client, get_season_schedule, load_to_bucket)
 
 
 @task(cache_key_fn=task_input_hash, cache_expiration=timedelta(hours=1))
@@ -29,6 +28,7 @@ def load_match_details_to_storage(match_info: pd.Series, s3_client: s3fs.S3FileS
         filename="",
     )
 
+    print(f"Extracting from URL: {match_info.Url}")
     match_detail_tables = get_match_detail_tables(
         url=match_info.Url,
         match_id=match_info.id,

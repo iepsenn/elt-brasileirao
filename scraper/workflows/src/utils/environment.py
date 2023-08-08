@@ -2,6 +2,8 @@ from prefect_aws import AwsCredentials
 from pyspark.conf import SparkConf
 from pyspark.sql import SparkSession
 
+BUCKET_NAME = "brasileirao-data"
+
 
 def build_spark_session(name: str):
     # credentials to storage

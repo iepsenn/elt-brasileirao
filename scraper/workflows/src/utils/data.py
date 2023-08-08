@@ -4,7 +4,7 @@ import pyspark.sql.functions as sf
 from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql.types import IntegerType
 
-from scraper.workflows.src.utils import BUCKET_NAME
+from .environment import BUCKET_NAME
 
 
 def read_raw_file(spark: SparkSession, season_year: int, schema: list, stats_name: str):

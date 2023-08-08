@@ -130,5 +130,6 @@ dmypy.json
 
 # Volume folders
 minio/data/
+minio/buckets/
 prefect/database/
 clickhouse/

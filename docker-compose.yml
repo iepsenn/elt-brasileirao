@@ -13,7 +13,7 @@ services:
       - 9000:9000
       - 9001:9001
     env_file:
-      - "../env"
+      - ".env"
     volumes:
       - ./minio/data:/data
       - ./minio/buckets:/opt/minio
@@ -30,7 +30,7 @@ services:
       - ./prefect/database:/root/.prefect
       - ./scraper/workflows:/opt/prefect/workflows
     env_file:
-      - "../env"
+      - ".env"
     ports:
       - 4200:4200
     restart: always
@@ -44,7 +44,7 @@ services:
     container_name: clickhouse
     user: "${UID}:${GID}"
     env_file:
-      - "../env"
+      - ".env"
     ports:
       - 8123:8123
       - 9090:9000

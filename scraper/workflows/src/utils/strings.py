@@ -3,7 +3,7 @@ import re
 
 from unidecode import unidecode
 
-from scraper.workflows.src.utils import BUCKET_NAME
+from .environment import BUCKET_NAME
 
 
 def normalize_string(string: str) -> str:

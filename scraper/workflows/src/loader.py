@@ -4,8 +4,8 @@ from pyspark.sql import SparkSession
 
 from prefect import flow, task
 from prefect.tasks import task_input_hash
-from scraper.workflows.src.utils import (build_spark_session,
-                                         load_refined_data, read_schemas_file)
+
+from .utils import build_spark_session, load_refined_data, read_schemas_file
 
 
 @task(cache_key_fn=task_input_hash, cache_expiration=timedelta(hours=1))

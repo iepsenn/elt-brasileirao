@@ -14,9 +14,8 @@ RUN chmod +x /tmp/minio-binaries/mc
 ENV PATH="${PATH}:/tmp/minio-binaries/"
 
 RUN mkdir -p /opt/minio/
-WORKDIR /opt/minio/
-
 COPY minio/bucket_setup.sh /opt/minio/.
+WORKDIR /opt/minio/
 
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY

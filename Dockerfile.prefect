@@ -10,7 +10,7 @@ RUN pip install prefect-aws
 
 # Install OpenJDK-11
 RUN apt-get update && \
-    apt-get install -y nano tmux openjdk-11-jre-headless && \
+    apt-get install -y nano tmux default-jre && \
     apt-get clean;
 
 # copy script to register credentials blocks in prefect

@@ -35,8 +35,14 @@
 ## Launch the Project
 
 ```bash
+docker compose up -d --build
+```
+
+```bash
 sh build.sh
 ```
+
+---
 
 - `prefect` - Prefect UI, available on [http://localhost:4200](http://localhost:4200)
 - `minio` - MinIO Storage UI, available on [http://localhost:9001](http://localhost:9001)
